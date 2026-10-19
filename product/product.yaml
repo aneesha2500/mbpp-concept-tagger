@@ -1,4 +1,4 @@
-_ > nanoagent.plugin.manifest.ProductConfig:
+_ > nanoagent.plugin.v0001.ProductConfig:
 tagline: "Label MBPP solutions with the concepts they use"
 summary: "Give it up to five MBPP problems and the agent reads each reference solution and tags the programming concepts it uses, such as loops, recursion, comprehensions or dictionaries. Every concept has a precise syntactic rule, so each label is checked against Python's own syntax tree, not an opinion."
 highlights:

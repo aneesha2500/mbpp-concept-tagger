@@ -58,7 +58,6 @@ CC BY 4.0, test split bundled in `src/plugin/data/mbpp_test_code.json`.
 ├── uv.lock
 ├── .gitignore
 ├── .env             # environment variable NAMEs this plugin needs (none)
-├── run.sh           # exits 0 when this environment can run the plugin
 ├── src/plugin/      # the MCP server (__main__.py, IMPLEMENTATIONS), tagger.py and data/
 ├── tests/           # test_verifier.py (correct, wrong, missing, malformed, boundary) and test_tagger.py
 ├── ui/              # outputs drawn from their JSON Schema: renderers.js and renderers.css

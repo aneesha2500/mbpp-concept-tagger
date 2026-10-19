@@ -1,7 +1,7 @@
 _ > nanoagent.plugin.v0001.ManifestConfig:
 id: mbpp-concept-tagger
 name: MBPP Concept Tagger
-version: 0.1.0
+version: 0.1.1
 status: ready
 spec: nanoagent.plugin/v0001
 
@@ -43,3 +43,4 @@ tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
       - import: any import or from ... import statement.
       A snippet may meet none of the rules; then its concepts list is empty.
       Submit one label per task id, in the order given, each concept at most once.
+      Work out every value yourself, then end by calling the submit tool with them. Never write the answer as a chat message instead: a run that ends without a submit call fails, whatever it wrote.
